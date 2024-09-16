@@ -14,7 +14,7 @@ datasource db {
 }
 
 model Book {
-  id        Int      @id @default(autoincrement())
+  id          Int      @id @default(autoincrement())
   title       String   @db.VarChar(255)
   author      String   @db.VarChar(100)
   description String?
@@ -25,13 +25,15 @@ model Book {
 }
 
 model Student {
-  id          Int@id @default(autoincrement())
-  nis         Int@db.Int(50)
-  fullname    String@db.VarChar(100)
+  id          Int        @id @default(autoincrement())
+  nis         Int        @db.Int(50)
+  fullname    String     @db.VarChar(100)
   jk          JK
-  class       String@db.VarChar(100)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  class       String     @db.VarChar(100)
+  address     String?
+  no_hp       Int        @db.Int(13)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
 
   @@map("students")
 }
