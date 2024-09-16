@@ -1,5 +1,5 @@
 {
-  "name": "perpusapi",
+  "name": "ricoapi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "@prisma/client": "^5.19.1",
     "bcryptjs": "^2.4.3",
     "next": "14.2.11",
-    "perpusapi": "file:",
+    "ricoapi": "file:",
     "react": "^18",
     "react-dom": "^18"
   },
