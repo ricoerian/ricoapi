@@ -29,7 +29,7 @@ model Student {
   nis         Int        @db.Int(50)
   fullname    String     @db.VarChar(100)
   jk          JK
-  class       String     @db.VarChar(100)
+  classroom   String     @db.VarChar(100)
   address     String?
   no_hp       Int        @db.Int(13)
   createdAt   DateTime   @default(now())
