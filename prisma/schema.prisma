@@ -24,6 +24,19 @@ model Book {
   @@map("books")
 }
 
+model Student {
+  id          Int@id @default(autoincrement())
+  nis         Int@db.Int(50)
+  fullname    String@db.VarChar(100)
+  jk          JK
+  class       String@db.VarChar(100)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("students")
+}
+
+
 model User {
   id          Int       @id @default(autoincrement())
   fullname    String    @db.VarChar(100)
@@ -40,5 +53,12 @@ model User {
 enum Role {
   Admin
   Pustakawan
+  Guru
   Siswa
 }
+
+enum JK {
+  Laki
+  Perempuan
+}
+
