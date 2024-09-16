@@ -26,12 +26,12 @@ model Book {
 
 model Student {
   id          Int        @id @default(autoincrement())
-  nis         Int        @db.Int(50)
+  nis         Int        @db.Int
   fullname    String     @db.VarChar(100)
   jk          JK
   classroom   String     @db.VarChar(100)
   address     String?
-  no_hp       Int        @db.Int(13)
+  no_hp       Int        @db.Int
   createdAt   DateTime   @default(now())
   updatedAt   DateTime   @updatedAt
 
