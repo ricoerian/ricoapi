@@ -71,7 +71,7 @@ export default function Home() {
                         <h1 className="font-semibold font-poppins text-4xl text-white md:text-2xl lg:text-5xl text-center md:text-center">Hello!<br /> I'm   <span className="main-font">Rico Eriansyah</span>, Full Stack Web & Mobile Developer Enthausiast</h1>
                             <p className="font-thin font-montserra text-white mt-16 text-2xl md:text-2xl lg:text-2xl text-center md:text-left">I work as Head of the Computer Laboratory and as a Software Engineering Teacher at SMKS Purnawarman</p>
                         <div className="flex space-x-10 md:items-center justify-center mb-16">
-                            <a href="#contact" target="_blank" rel="noopener noreferrer">
+                            <a href="#projects" target="_blank" rel="noopener noreferrer">
                                 <button className="px-8 py-3 rounded-xl text-white font-bold font-poppins mt-20 flex items-center space-x-3 border-solid border-2 border-white text-xl hover:bg-slate-800">
                                     Projects
                                 </button>
