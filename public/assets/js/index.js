@@ -4,5 +4,3 @@
   btn.addEventListener("click", () => {
       menu.classList.toggle("hidden");
   });
-
-  document.write('#spanYear').html(new Date().getFullYear());
