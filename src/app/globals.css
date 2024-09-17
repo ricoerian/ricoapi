@@ -4,7 +4,7 @@
 
 @layer components {
   .bg-primary {
-      background-color: #141628;
+      background-color: #1D2B53;
       
   }
   .bg-button {
@@ -14,7 +14,7 @@
       color: #F62BA5;
   }
   .bg-section-two {
-      background-color: #1B1E32;
+      background-color: #141628;
   }
   .bg-test {
       background: #F62BA5;
