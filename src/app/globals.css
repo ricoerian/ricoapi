@@ -4,20 +4,20 @@
 
 @layer components {
   .bg-primary {
-      background-color: #141628;
+      background-color: #800000;
       
   }
   .bg-button {
-      background-color: #F62BA5;
+      background-color: #F2E8C6;
   }
   .main-font {
-      color: #F62BA5;
+      color: #DAD4B5;
   }
   .bg-section-two {
-      background-color: #1B1E32;
+      background-color: #982B1C;
   }
   .bg-test {
-      background: #F62BA5;
+      background: #DAD4B5;
   }
 
   html {
