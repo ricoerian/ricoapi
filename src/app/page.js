@@ -31,7 +31,7 @@ export default function Home() {
                             <a href="#projects" className="block py-2 px-16 rounded text-lg hover:bg-gray-700">Projects</a>
                             <a href="#skills" className="block py-2 px-16 rounded text-lg hover:bg-gray-700">Skills</a>
                             <a href="#contact" className="block py-2 px-16 rounded text-sm hover:bg-gray-700">
-                                <button className="px-6 py-2 bg-button font-bold rounded-xl hover:bg-[#F80095]">
+                                <button className="px-6 py-2 bg-button font-bold rounded-xl hover:bg-[#141628]">
                                     Contact
                                 </button>
                             </a>
@@ -39,7 +39,7 @@ export default function Home() {
   
                         <div className="md:hidden ">
                             <button className="mobile-menu-button">
-                                <svg className="w-10 h-10 bg-[#F80095] rounded text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg className="w-10 h-10 bg-[#141628] rounded text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
                             </button>
