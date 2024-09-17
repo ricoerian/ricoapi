@@ -182,7 +182,7 @@ export default function Home() {
                                             <img width="50" height="70" src="/assets/ionic.svg"/>
                                         </div>
                                         <div>
-                                            <img width="50" height="70" src="/assets/nextjs.svg"/>
+                                            <img width="50" height="70" src="/assets/next.svg"/>
                                         </div>
                                     
                                     </div>
