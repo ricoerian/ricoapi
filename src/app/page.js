@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { Analytics } from '@vercel/analytics/react';
 import "./globals.css";
 
 export default function Home() {
@@ -264,6 +264,7 @@ export default function Home() {
             </footer>
   
             <script src="/assets/js/index.js"></script>
+            <Analytics />
         </body>
         </html>
     );
