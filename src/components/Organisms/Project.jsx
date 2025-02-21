@@ -1,4 +1,6 @@
-export const Project = ({ title, approach, techStack, description, liveDemoLink, sourceCodeLink, imageSrc, nextProjectId }) => {
+import { CardPhoto } from "../Atoms/CardPhoto";
+
+export const Project = ({ title, techStack, description, liveDemoLink, sourceCodeLink, imageSrc, imageWidth, imageHeight, nextProjectId }) => {
     return (
         <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div className="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
@@ -21,7 +23,7 @@ export const Project = ({ title, approach, techStack, description, liveDemoLink,
                 </div>
             </div>
             <div className="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
-                <img src={imageSrc} alt={title} className="rounded-3xl text-white m-auto" />
+                <CardPhoto src={imageSrc} alt={title} height={imageHeight} width={imageWidth} />
                 {nextProjectId && (
                     <div className="flex items-center mt-10 justify-center">
                         <div>

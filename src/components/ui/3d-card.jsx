@@ -1,4 +1,4 @@
-"use client";
+"use client";;
 import { cn } from "@/lib/utils";
 import React, {
   createContext,
@@ -37,15 +37,12 @@ export const CardContainer = ({
     setIsMouseEntered(false);
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
   };
-
   return (
-    <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
+    (<MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
-        className={cn("flex items-center justify-center", containerClassName)}
+        className={cn("py-2 flex items-center justify-center", containerClassName)}
         style={{
           perspective: "1000px",
-          position: "relative",
-          zIndex: 0,
         }}>
         <div
           ref={containerRef}
@@ -53,18 +50,16 @@ export const CardContainer = ({
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
           className={cn(
-            "transition-all duration-200 ease-linear",
+            "flex items-center justify-center relative transition-all duration-200 ease-linear",
             className
           )}
           style={{
             transformStyle: "preserve-3d",
-            position: "relative",
-            zIndex: 1,
           }}>
           {children}
         </div>
       </div>
-    </MouseEnterContext.Provider>
+    </MouseEnterContext.Provider>)
   );
 };
 
@@ -73,17 +68,13 @@ export const CardBody = ({
   className
 }) => {
   return (
-    <div
+    (<div
       className={cn(
         "h-96 w-96 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
         className
-      )}
-      style={{
-        position: "relative",
-        zIndex: 2,
-      }}>
+      )}>
       {children}
-    </div>
+    </div>)
   );
 };
 
@@ -116,19 +107,16 @@ export const CardItem = ({
   };
 
   return (
-    <Tag
+    (<Tag
       ref={ref}
       className={cn("w-fit transition duration-200 ease-linear", className)}
-      {...rest}
-      style={{
-        position: "relative",
-        zIndex: 3,
-      }}>
+      {...rest}>
       {children}
-    </Tag>
+    </Tag>)
   );
 };
 
+// Create a hook to use the context
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
   if (context === undefined) {

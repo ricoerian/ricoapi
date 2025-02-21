@@ -7,7 +7,9 @@ export const projects = [
         liveDemoLink: `https://wa.me/6285158442031?text=${encodeURIComponent(`Halo Rico, Saya ingin melihat dan (jika diijinkan) mencoba Driver Tracker Mobile App`)}`,
         sourceCodeLink: 'https://github.com/ricoerian',
         imageSrc: '/assets/project-one.png',
-        nextProjectId: 'project-two'
+        imageWidth: 341,
+        imageHeight: 192,
+        nextProjectId: 'project-two',
     },
     {
         title: 'Mutiara Bangsa Vocational School Academic System App',
@@ -17,6 +19,8 @@ export const projects = [
         liveDemoLink: `https://wa.me/6285158442031?text=${encodeURIComponent(`Halo Rico, Saya ingin melihat dan (jika diijinkan) mencoba Mutiara Bangsa Vocational School Academic System App`)}`,
         sourceCodeLink: 'https://github.com/ricoerian',
         imageSrc: '/assets/project-two.png',
+        imageWidth: 248,
+        imageHeight: 545,
         nextProjectId: null
     }
 ];

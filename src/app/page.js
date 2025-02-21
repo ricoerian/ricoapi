@@ -28,6 +28,8 @@ export default function Home() {
                         liveDemoLink={project.liveDemoLink}
                         sourceCodeLink={project.sourceCodeLink}
                         imageSrc={project.imageSrc}
+                        imageHeight={project.imageHeight}
+                        imageWidth={project.imageWidth}
                         nextProjectId={project.nextProjectId}
                     />
                 ))}

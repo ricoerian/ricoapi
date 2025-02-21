@@ -65,7 +65,7 @@ export const Contact = () => {
         </form>
       </div>
       <div className="w-full xl:w-2/5 p-12 overflow-hidden">
-        <CardPhoto />
+        <CardPhoto src="/assets/you.png" alt="Rico Eriansyah" height={300} width={300} />
       </div>
     </div>
   );

@@ -1,10 +1,11 @@
 import { CardPhoto } from "../Atoms/CardPhoto";
+import { FlipWord } from "../Molecules/FlipWord";
 
 export const Hero = () => {
     return (
         <>
             <div className="w-full xl:w-2/5 p-12 overflow-hidden">
-                <CardPhoto />
+                <CardPhoto src="/assets/you.png" alt="Rico Eriansyah" height={300} width={300} />
                 <div className="flex my-8 flex-row space-x-6 justify-center">
                     <a href="https://www.linkedin.com/in/rico-eriansyah-6729a8204/" className="">
                         <img width="46" height="45" src="/assets/linkedin-icon.svg" alt="Linkedin" className="text-white -mt-1 hover:bg-[#F62BA5] rounded-md" />
@@ -19,13 +20,8 @@ export const Hero = () => {
             </div>
 
             <div className="flex flex-col w-full p-2 xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
-                <h1 className="font-semibold font-poppins text-4xl text-white md:text-2xl lg:text-5xl text-center md:text-center">
-                    Hello!<br /> I'm <span className="main-font">Rico Eriansyah</span>, Full Stack Web & Mobile Developer Enthusiast
-                </h1>
-                <p className="font-thin font-montserra text-white mt-6 text-2xl md:text-2xl lg:text-2xl text-center md:text-left">
-                    I work as Head of the Computer Laboratory and as a Software Engineering Teacher at SMKS Purnawarman
-                </p>
-                <div className="flex space-x-10 md:items-center justify-center">
+                <FlipWord />
+                <div className="w-full flex space-x-6 md:items-center justify-center">
                     <a href="https://github.com/ricoerian?tab=repositories" target="_blank" rel="noopener noreferrer">
                         <button className="px-8 py-3 rounded-xl text-white font-bold font-poppins my-8 flex items-center space-x-3 border-solid border-2 border-white text-xl hover:bg-slate-800">
                             Repositories
