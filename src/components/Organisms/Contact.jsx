@@ -17,7 +17,7 @@ export const Contact = () => {
 
   return (
     <div className="container pt-24 md:pt-26 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <div className="flex flex-col w-full xl:w-3/5 p-5 pb-24 justify-center lg:items-start overflow-y-hidden">
+      <div className="flex flex-col w-full md:w-3/5 p-5 pb-24 justify-center lg:items-start overflow-y-hidden">
         <h1 className="font-semibold font-poppins text-4xl text-white md:text-2xl lg:text-5xl text-left md:text-left">
           Contact
         </h1>
@@ -64,7 +64,7 @@ export const Contact = () => {
           </button>
         </form>
       </div>
-      <div className="w-full xl:w-2/5 p-12 overflow-hidden">
+      <div className="w-full md:w-2/5 p-12 overflow-hidden">
         <CardPhoto src="/assets/you.png" alt="Rico Eriansyah" height={300} width={300} />
       </div>
     </div>

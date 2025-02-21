@@ -3,7 +3,7 @@ import { CardPhoto } from "../Atoms/CardPhoto";
 export const Project = ({ title, techStack, description, liveDemoLink, sourceCodeLink, imageSrc, imageWidth, imageHeight, nextProjectId }) => {
     return (
         <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <div className="flex flex-col w-full p-4 xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
+            <div className="flex flex-col w-full p-4 md:w-3/5 justify-center lg:items-start overflow-y-hidden">
                 <h1 className="font-semibold font-poppins text-xl text-white md:text-xl lg:text-3xl text-left md:text-left mt-5 underline decoration-slate-500">{title}</h1>
                 <p className="main-font font-semibold font-montserrat text-xl mt-16">Approach</p>
                 <p className="font-thin font-montserra text-white mt-8 text-2xl md:text-2xl lg:text-2xl text-left md:text-left">{description}</p>
@@ -22,7 +22,7 @@ export const Project = ({ title, techStack, description, liveDemoLink, sourceCod
                     </a>
                 </div>
             </div>
-            <div className="w-full xl:w-2/5 p-12 overflow-hidden md:pt-1">
+            <div className="w-full md:w-2/5 p-12 overflow-hidden md:pt-1">
                 <CardPhoto src={imageSrc} alt={title} height={imageHeight} width={imageWidth} />
                 {nextProjectId && (
                     <div className="flex items-center mt-10 justify-center">

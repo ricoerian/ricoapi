@@ -4,7 +4,7 @@ import { FlipWord } from "../Molecules/FlipWord";
 export const Hero = () => {
     return (
         <>
-            <div className="w-full xl:w-2/5 p-12 overflow-hidden">
+            <div className="w-full md:w-2/5 p-12 overflow-hidden">
                 <CardPhoto src="/assets/you.png" alt="Rico Eriansyah" height={300} width={300} />
                 <div className="flex my-8 flex-row space-x-6 justify-center">
                     <a href="https://www.linkedin.com/in/rico-eriansyah-6729a8204/" className="">
@@ -19,7 +19,7 @@ export const Hero = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col w-full p-2 xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
+            <div className="flex flex-col w-full p-2 md:w-3/5 justify-center lg:items-start overflow-y-hidden">
                 <FlipWord />
                 <div className="w-full flex space-x-6 md:items-center justify-center">
                     <a href="https://github.com/ricoerian?tab=repositories" target="_blank" rel="noopener noreferrer">
