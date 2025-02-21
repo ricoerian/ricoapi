@@ -15,7 +15,7 @@ export const projects = [
         techStack: 'Ionic React, Laravel, MySQL, Axios',
         description: 'An application for managing users, students, teachers, staff, lesson schedules, classes, departments, assignment/exam grades, and PPDB. In creating and developing frontend using Ionic React and backend API using Laravel, using the axios library to connect the API to the frontend application.',
         liveDemoLink: `https://wa.me/6285158442031?text=${encodeURIComponent(`Halo Rico, Saya ingin melihat dan (jika diijinkan) mencoba Mutiara Bangsa Vocational School Academic System App`)}`,
-        sourceCodeLink: 'https://github.com/ricoeriann',
+        sourceCodeLink: 'https://github.com/ricoerian',
         imageSrc: '/assets/project-two.png',
         nextProjectId: null
     }
