@@ -47,7 +47,7 @@ export const Footer = () => {
       {showButton && (
         <div className="fixed bottom-4 right-4">
           <a href="#top">
-            <button className="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:border-2 hover:bg-slate-800">
+            <button className="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:border-2 bg-[#03001C] hover:bg-slate-800">
               Back to Top
             </button>
           </a>
