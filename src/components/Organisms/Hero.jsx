@@ -4,9 +4,9 @@ import { FlipWord } from "../Molecules/FlipWord";
 export const Hero = () => {
     return (
         <>
-            <div className="w-full md:w-2/5 p-12 overflow-hidden">
+            <div className="w-full md:w-2/5 md:p-12 overflow-hidden">
                 <CardPhoto src="/assets/you.png" alt="Rico Eriansyah" height={300} width={300} />
-                <div className="flex my-8 flex-row space-x-6 justify-center">
+                <div className="flex my-4 md:my-8 flex-row space-x-6 justify-center">
                     <a href="https://www.linkedin.com/in/rico-eriansyah-6729a8204/" className="">
                         <img width="46" height="45" src="/assets/linkedin-icon.svg" alt="Linkedin" className="text-white -mt-1 hover:bg-[#F62BA5] rounded-md" />
                     </a>
