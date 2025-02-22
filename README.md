@@ -27,7 +27,7 @@ Jika ingin menjalankan project ini secara lokal, ikuti langkah-langkah berikut:
 
 ```sh
 # Clone repository
-git clone https://github.com/ricoeriansyah/ricoapi.git
+git clone https://github.com/ricoerian/ricoapi.git
 
 # Masuk ke direktori project
 cd ricoapi
