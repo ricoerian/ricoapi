@@ -27,10 +27,10 @@ Jika ingin menjalankan project ini secara lokal, ikuti langkah-langkah berikut:
 
 ```sh
 # Clone repository
-git clone https://github.com/ricoeriansyah/portfolio.git
+git clone https://github.com/ricoeriansyah/ricoapi.git
 
 # Masuk ke direktori project
-cd portfolio
+cd ricoapi
 
 # Install dependencies
 npm install
@@ -39,7 +39,7 @@ npm install
 npm run dev
 ```
 
-Setelah itu, buka browser dan akses `http://localhost:5173/`.
+Setelah itu, buka browser dan akses `http://localhost:3000/`.
 
 ## 📧 Kontak
 Jika ingin berkomunikasi lebih lanjut, silakan hubungi saya melalui:
