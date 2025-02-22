@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <RootLayout>
             <Header />
-            <section className="container md:pt-26 mx-auto py-8 flex flex-wrap flex-col md:flex-row items-center">
+            <section className="container md:pt-26 min-h-screen mx-auto py-8 flex flex-wrap flex-col md:flex-row items-center">
                 <Hero />
             </section>
             <section className="bg-section-two pt-16" id="projects">
@@ -34,11 +34,11 @@ export default function Home() {
                     />
                 ))}
             </section>
-            <section className="bg-[#03001C] py-20" id="skills">
+            <section className="bg-[#03001C] py-20 md:min-h-screen md:flex md:flex-col md:justify-center" id="skills">
                 <Skills title="Skills & Tools" skills={developmentSkills} />
                 <Skills title="Design" skills={designSkills} />
             </section>
-            <section className="bg-section-two" id="contact">
+            <section className="bg-section-two md:min-h-screen md:flex md:flex-col md:justify-center" id="contact">
                 <Contact />
             </section>
             <Footer /> 
