@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Rico Eriansyah - Portfolio
 
-## Getting Started
+Selamat datang di repository website portfolio pribadi saya! 🎨👨‍💻
 
-First, run the development server:
+## 🌐 Demo
+Website portfolio saya bisa diakses di:
+🔗 [rico-eriansyah.vercel.app](https://rico-eriansyah.vercel.app/)
 
-```bash
+## 📌 Tentang Website
+Website ini adalah portofolio pribadi yang berisi tentang saya, pengalaman kerja, proyek-proyek yang telah saya buat, serta informasi kontak.
+
+## 🛠 Teknologi yang Digunakan
+Website ini dibangun dengan teknologi modern untuk tampilan yang responsif dan performa yang optimal:
+- **Frontend:** Next.js
+- **UI Component:** Shadcn dan Aceternity UI
+- **Styling:** TailwindCSS
+- **Deployment:** Vercel
+
+## 🎯 Fitur Utama
+- 📄 **Tentang Saya** - Informasi singkat mengenai latar belakang saya.
+- 💼 **Pengalaman & Proyek** - List pengalaman kerja dan proyek yang telah saya kerjakan.
+- 📩 **Kontak** - Cara untuk menghubungi saya melalui media sosial dan email.
+- 📱 **Responsif** - Dapat diakses dengan baik di berbagai perangkat.
+
+## 📥 Instalasi & Penggunaan
+Jika ingin menjalankan project ini secara lokal, ikuti langkah-langkah berikut:
+
+```sh
+# Clone repository
+git clone https://github.com/ricoeriansyah/portfolio.git
+
+# Masuk ke direktori project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Jalankan project
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Setelah itu, buka browser dan akses `http://localhost:5173/`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📧 Kontak
+Jika ingin berkomunikasi lebih lanjut, silakan hubungi saya melalui:
+- 🌐 Website Portfolio: [rico-eriansyah.vercel.app](https://rico-eriansyah.vercel.app/)
+- 📩 Email: [ricoeriansyahm@gmail.com](mailto:ricoeriansyahm@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/rico-eriansyah-6729a8204/](https://www.linkedin.com/in/rico-eriansyah-6729a8204/)
+- 🐙 GitHub: [github.com/ricoerian](https://github.com/ricoeriansyah)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Terima kasih telah mengunjungi portofolio saya! 😊
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
